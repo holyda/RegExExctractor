@@ -1,0 +1,12 @@
+What EmailPhNumExtractor Need To Do:
+1. Get the text off the clipboard
+2. Find all phone numbers and email adresses in the text
+3. Paste them onto the clipboard
+
+The Code Need To Dp:
+1. Use the PYPERCLIP module to copy and paste strings
+2. Create two regexes, one for mathching phone numbers and the other
+   for matching email addresses
+3. Find all matches, not just the first match, of both regex
+4. Neatly format the matched string into a single string to paste
+5. Display some kind of message if no matches were found in the text
